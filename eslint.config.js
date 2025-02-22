@@ -24,5 +24,10 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
+    options: {
+      "import/resolver": {
+        typescript: {}
+      }
+    }
   },
 )

@@ -1,9 +1,9 @@
 import './App.css'
-import FlightList from "./flights/FlightList.tsx";
+import FlightsDashboard from "./flights/FlightsDashboard";
 
 function App() {
   return (
-    <FlightList />
+    <FlightsDashboard />
   );
 }
 

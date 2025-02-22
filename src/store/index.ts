@@ -1,9 +1,9 @@
 import {combineReducers, configureStore, createSelector} from "@reduxjs/toolkit";
 import {useDispatch, useSelector, useStore} from "react-redux";
-import {flightsReducer} from "../flights/flights.slice.ts";
+import {flightsSlice} from "@/flights/flights.slice.ts";
 
 const reducer = combineReducers({
-  flights: flightsReducer
+  flights: flightsSlice.reducer
 });
 
 export const store = configureStore({
